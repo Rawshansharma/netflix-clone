@@ -1,0 +1,90 @@
+.loginscreen{
+ position: relative;
+ height: 100%;
+ background-image: url('https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png');
+ background-size: cover;
+}
+.loginscreen_logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.loginscreen_button{
+    position: fixed;
+    right: 120px;
+    top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+.loginscreen_button:hover{
+    color: red;
+    background-color: whitesmoke;
+}
+.loginscreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4)
+}
+.loginscreen_body{
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    margin-left: 120px;
+    text-align: center;
+    align-items: center;
+}
+.loginscreen_body h1{
+    font-size: 3.1234rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+ }
+ .loginscreen_body h2{
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+ }
+ .loginscreen_body h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+ }
+.loginscreen_body input{
+   padding: 10px ;
+   border-radius: 5px;
+   outline-width: 0;
+   height: 30px;
+   width: 30%;
+   border: none;
+   max-width: 600px;
+   font-size: 1.2rem;
+   }
+   input[type="text"]
+{
+    background: transparent;
+    border: whitesmoke 0.8px solid;
+    color: whitesmoke;
+}
+ .loginscreen_body button{
+    padding: 16px 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+ }
